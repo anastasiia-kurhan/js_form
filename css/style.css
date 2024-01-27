@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+body {
+    background-color: #eed8b2;
+}
+
+input {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 20px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid red;
+}
+button {
+    margin: 20px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid #9c3c3c;
+    background: #d65757;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: transform 500ms ease;
+}
+
+button:hover {
+    transform: translateY(-10px) scale(1.1);
+}
+
+#error {
+    font-weight: bold;
+    display: block;
+    color: #c62323;
+    font-size: 20px;
+    margin-left: 20px;
+}
