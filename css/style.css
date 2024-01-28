@@ -44,3 +44,11 @@ button:hover {
     font-size: 20px;
     margin-left: 20px;
 }
+
+#error {
+    font-weight: bold;
+    display: block;
+    color: #c62323;
+    font-size: 20px;
+    margin-left: 20px;
+}

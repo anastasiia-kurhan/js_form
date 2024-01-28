@@ -9,12 +9,13 @@
 <body>
     <!-- <noscript>JS not working</noscript> -->
 
-    <form onsubmit="return checkForm()">
+    <form onsubmit="return checkForm(this)">
         <input type="text" name="username" placeholder="Введіть ім'я"><br>
         <input type="email" name="email" placeholder="Введіть email"><br>
         <input type="password" name="password" placeholder="Введіть пароль"><br>
         <input type="radio" name="gender" value="male">Чоловік<br>
         <input type="radio" name="gender" value="female">Жінка<br>
+        <span id="error"></span>
         <button>Надіслати</button>
     </form>
 
