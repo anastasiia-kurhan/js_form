@@ -20,6 +20,9 @@ function checkForm(el) {
         document.getElementById('error').innerText = error;
         return false;
     }
-        
+
+    document.getElementById('error').innerText = '';
+    window.location = 'https://www.google.com.ua/?hl=uk'
+
     return false;
 }
